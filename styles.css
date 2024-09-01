@@ -32,14 +32,14 @@ header h1 {
 .sponsors {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 9px;
     margin-top: 10px;
     flex-wrap: wrap;
 }
 
 .sponsor-item {
     background: #1abc9c;
-    padding: 10px;
+    padding: 9px;
     border-radius: 8px;
     width: 120px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
