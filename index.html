@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقع المنافسات</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>منافسات اللعبة الاستراتيجية</h1>
+        <div class="sponsors">
+            <div class="sponsor-item">
+                <h2>الراعي الرسمي</h2>
+                <p>اللورد</p>
+            </div>
+            <div class="sponsor-item">
+                <h2>قيادة الأسود</h2>
+                <ul>
+                    <li>يوسف - ملك الحروب</li>
+                    <li>نور - وايت فوكس</li>
+                    <li>ابراهيم - امازينج هيما</li>
+                </ul>
+            </div>
+            <div class="sponsor-item">
+                <h2>رتب الأسود</h2>
+                <ul>
+                    <li>مصطفى عبدالسلام</li>
+                    <li>محمد رضا - اكسيون</li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <section class="competition">
+        <h2>المباريات</h2>
+        <div class="buttons">
+            <button id="show-round1">عرض الجولة الأولى</button>
+            <button id="show-round2" style="display: none;">عرض الجولة الثانية</button>
+            <button id="show-round3" style="display: none;">عرض الجولة الثالثة</button>
+            <button id="show-round4" style="display: none;">عرض التصفيات</button>
+            <button id="show-final" style="display: none;">عرض النهائي</button>
+            <button id="back-to-round" style="display: none;">العودة للجولة السابقة</button>
+        </div>
+
+        <div id="round1" class="matches-container">
+            <!-- الجولة الأولى -->
+            <div class="match">
+                <div class="player">
+                    <img src="player1.jpg" alt="Player 1">
+                    <p>لاعب 1</p>
+                </div>
+                <span>ضد</span>
+                <div class="player">
+                    <img src="player2.jpg" alt="Player 2">
+                    <p>لاعب 2</p>
+                </div>
+            </div>
+            <!-- تكرار المباريات كما هو مطلوب -->
+        </div>
+
+        <div id="round2" class="matches-container" style="display: none;">
+            <!-- الجولة الثانية -->
+            <div class="match">
+                <div class="player">
+                    <img src="player3.jpg" alt="Player 3">
+                    <p>لاعب 3</p>
+                </div>
+                <span>ضد</span>
+                <div class="player">
+                    <img src="player4.jpg" alt="Player 4">
+                    <p>لاعب 4</p>
+                </div>
+            </div>
+            <!-- تكرار المباريات -->
+        </div>
+
+        <div id="round3" class="matches-container" style="display: none;">
+            <!-- الجولة الثالثة -->
+            <div class="match">
+                <div class="player">
+                    <img src="player5.jpg" alt="Player 5">
+                    <p>لاعب 5</p>
+                </div>
+                <span>ضد</span>
+                <div class="player">
+                    <img src="player6.jpg" alt="Player 6">
+                    <p>لاعب 6</p>
+                </div>
+            </div>
+            <!-- تكرار المباريات -->
+        </div>
+
+        <div id="round4" class="matches-container" style="display: none;">
+            <!-- التصفيات -->
+            <div class="message">أنتم حصلتم على أفضل 4، حان وقت التصفيات لمعرفة مراكزكم!</div>
+            <div class="match">
+                <div class="player">
+                    <img src="player7.jpg" alt="Player 7">
+                    <p>لاعب 7</p>
+                </div>
+                <span>ضد</span>
+                <div class="player">
+                    <img src="player8.jpg" alt="Player 8">
+                    <p>لاعب 8</p>
+                </div>
+            </div>
+            <!-- تكرار المباريات -->
+        </div>
+
+        <div id="final" class="matches-container" style="display: none;">
+            <!-- النهائي -->
+            <div class="winners">
+                <h2>الفائزين النهائيين</h2>
+                <div id="winners-container">
+                    <div class="winner">
+                        <img src="winner1.jpg" alt="Winner 1">
+                        <p>فائز 1</p>
+                    </div>
+                    <div class="winner">
+                        <img src="winner2.jpg" alt="Winner 2">
+                        <p>فائز 2</p>
+                    </div>
+                    <div class="winner">
+                        <img src="winner3.jpg" alt="Winner 3">
+                        <p>فائز 3</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 موقع المنافسات. جميع الحقوق محفوظة.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
