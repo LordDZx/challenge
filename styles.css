@@ -238,14 +238,6 @@ footer {
         width: 80px;
         padding: 6px;
     }
-        header {
-        display: none;
-    }
-
-
-    header h1 {
-        font-size: 1.2em;
-    }
 
     .buttons button {
         font-size: 0.8em;
@@ -270,8 +262,8 @@ footer {
         width: 60px;
         height: 60px;
     }
-        header {
+
+    header {
         display: none;
     }
-
 }
