@@ -32,14 +32,14 @@ header h1 {
 .sponsors {
     display: flex;
     justify-content: center;
-    gap: 9px;
-    margin-top: 10px;
+    gap: 7px;
+    margin-top: 7px;
     flex-wrap: wrap;
 }
 
 .sponsor-item {
     background: #1abc9c;
-    padding: 9px;
+    padding: 7px;
     border-radius: 8px;
     width: 120px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -194,4 +194,76 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+/* ميديا كويريز لتصميم استجابة */
+@media (max-width: 768px) {
+    .sponsor-item {
+        width: 100px;
+        padding: 8px;
+    }
+
+    header h1 {
+        font-size: 1.4em;
+    }
+
+    .buttons button {
+        font-size: 0.9em;
+        padding: 8px 16px;
+    }
+
+    .match {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 90%;
+    }
+
+    .player img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .player p {
+        font-size: 0.8em;
+    }
+
+    .winner img {
+        width: 70px;
+        height: 70px;
+    }
+}
+
+@media (max-width: 480px) {
+    .sponsor-item {
+        width: 80px;
+        padding: 6px;
+    }
+
+    header h1 {
+        font-size: 1.2em;
+    }
+
+    .buttons button {
+        font-size: 0.8em;
+        padding: 6px 12px;
+    }
+
+    .match {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .player img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .player p {
+        font-size: 0.7em;
+    }
+
+    .winner img {
+        width: 60px;
+        height: 60px;
+    }
 }
